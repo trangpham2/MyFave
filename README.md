@@ -27,4 +27,4 @@ docker run -it cpp-container sh
 ```
 docker run -v "$(pwd)":/usr/src -it cpp-container
 ```
-
+[![Lint Code Base](https://github.com/trangpham2/MyFave/actions/workflows/super-linter.yml/badge.svg)](https://github.com/trangpham2/MyFave/actions/workflows/uper-linter.yml)
