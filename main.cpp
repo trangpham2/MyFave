@@ -14,8 +14,13 @@ int main(){
     else{
       cout << "What is your next favorite?\n";
     }
-    cin >> input;
-    list.push_back(input);
+    // Use getline to capture the entire line
+    getline(cin, input);
+
+    // Check if input is "done" and don't add it to the list
+    if (input != "done") {
+      list.push_back(input);
+    }
   }while( input != "done" );
 
   cout << "Your favorite list:\n";
